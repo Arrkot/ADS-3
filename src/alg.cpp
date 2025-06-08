@@ -12,7 +12,7 @@ uint64_t collatzMaxValue(uint64_t num) {
     }
     if (cur > max) max = cur;
   }
-  return max
+  return max;
 }
 
 unsigned int collatzLen(uint64_t num) {
